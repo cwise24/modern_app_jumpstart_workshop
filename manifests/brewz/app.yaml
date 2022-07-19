@@ -190,10 +190,10 @@ spec:
   replicas: 1
   selector:
       matchLabels:
-      app: spa-dark
+        app: spa-dark
   template:
       metadata:
-      labels:
+        labels:
           app: spa-dark
       spec:
         containers:
